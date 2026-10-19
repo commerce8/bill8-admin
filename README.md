@@ -1,4 +1,4 @@
-# Bill8:Admin — Flutter App
+# Bill8:Admin - Flutter App
 
 The platform operations dashboard: oversee accounts, review fraud, and
 manage platform configuration.
@@ -27,7 +27,7 @@ graph TD
 
 ## 4. Key Traits and Data Structures
 
-- `Bff8ApiClient` — shared BFF client.
+- `Bff8ApiClient` - shared BFF client.
 - Staff-only (SSO) access.
 
 ## 5. Rationale, Trade-offs, and Alternatives

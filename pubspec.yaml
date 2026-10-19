@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 name: admin
-description: Bill8:Admin — platform administration over Bill8 services (remote UI host). Flutter (iOS, Android, Web).
+description: Bill8:Admin - platform administration over Bill8 services (remote UI host). Flutter (iOS, Android, Web).
 publish_to: "none"
 version: 0.1.0
 
