@@ -74,6 +74,6 @@ class _RfwHostPageState extends State<RfwHostPage> {
   String _bffBaseUrl() {
     // The runtime context carries the BFF domain in production; the
     // default targets the local dev BFF.
-    return 'https://bff.ops.sys.sentin8.local';
+    return 'https://bff.ops.sys.local.sentin8.dev';
   }
 }
