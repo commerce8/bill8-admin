@@ -3,13 +3,13 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Bill8:Admin
 // SPDX-License-Identifier: Apache-2.0
 
-// Bill8:Admin RFW host page — the remote-admin-UI rendering host.
+// Bill8:Admin RFW host page - the remote-admin-UI rendering host.
 //
 // Zero compile-time knowledge of the services' admin pages: the shell
 // navigates to #/{service}/{page} and this page fetches the service's
 // RFW definition (GET /v1/admin/ui/{page} through the BFF proxy) and
 // renders it via the shared Sentin8RfwPage (architecture-principles
-// §4.15 — the platform's remote-UI pattern).
+// §4.15 - the platform's remote-UI pattern).
 
 import 'package:flutter/material.dart';
 import 'package:sentin8/sentin8.dart';

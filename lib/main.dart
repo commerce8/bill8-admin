@@ -3,12 +3,12 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Bill8:Admin
 // SPDX-License-Identifier: Apache-2.0
 
-// Bill8:Admin — main entry point.
+// Bill8:Admin - main entry point.
 //
 // The platform administration surface over Bill8 services. Each
 // service publishes its admin UI as remote-UI definitions
 // (GET /v1/admin/ui/{page}); this app is the rendering host with zero
-// compile-time knowledge of the admin pages (the RFW pattern —
+// compile-time knowledge of the admin pages (the RFW pattern  - 
 // architecture-principles §4.15).
 
 import 'package:flutter/material.dart';
@@ -23,7 +23,7 @@ void main() {
   runApp(const AdminApp());
 }
 
-/// Root widget — the RFW rendering host.
+/// Root widget - the RFW rendering host.
 class AdminApp extends StatelessWidget {
   const AdminApp({super.key});
 
